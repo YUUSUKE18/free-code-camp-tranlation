@@ -51,3 +51,30 @@ Setting background image using imported image
 npm start コマンドにて、アプリケーションを起動するとき、画像が見つけられないとして、React アプリケーションは、コンパイルに失敗したというエラーを表示し、ビルドを停止します。
 
 この方法だと、アプリケーション上で、いかなる画像リンクも表示されません。上のコードにおいて、<backgroundImage>の値は、開発者が JavaScript 表記にて埋め込めるテンプレート文字を使っています。
+
+### How to Set a Background Image in React Using the Relative URL Method
+
+### 相対 URL メソッドを使い、React 内で背景画像を設定する方法
+
+Create React App コマンドで作成された React App の public フォルダは、静的な画像などを追加するのに使われます。フォルダ内に配置したどのようなファイルもオンラインにて、アクセスできます。
+
+The public/ folder in Create React App can be used to add static assets into your React application. Any files you put inside the folder will be accessible online.
+
+If you put an image.png file inside the public/ folder, you can access it at <your host address>/image.png. When running React in your local computer, the image should be at http://localhost:3000/image.png.
+
+You can then assign the URL relative to your host address to set the background image. Here's an example:
+
+```
+<div style={{ backgroundImage: "url(/image.png)" }}>
+  Hello World
+</div>
+```
+
+Setting the background image with relative URL
+By setting the URL path to /image.png like the example above, the browser will look for the background image at <your host address>/image.png.
+
+You can also create another folder inside public/ if you want to organize your images into folders. For example:
+
+Screen-Shot-2020-12-14-at-20.18.30
+Creating an img/ folder inside public/ folder
+Don't forget to adjust the backgroundImage value to url(/img/image.png) if you decide to create the folder.
