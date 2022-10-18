@@ -89,32 +89,51 @@ You can also create another folder inside public/ if you want to organize your i
 
 Don't forget to adjust the backgroundImage value to url(/img/image.png) if you decide to create the folder.
 
+絶対パスを使って、React 内に背景画像を設定する方法
+
 ### How to Set a Background Image in React Using the Absolute URL Method
+
+あなたが、以下のコードのように React アプリの PUBLIC_URL の環境変数を使うことで、絶対パス URL を含めることができます。
 
 You can also include the absolute URL by using Create React App's PUBLIC_URL environment variable like this:
 
-<div style={{ 
-  backgroundImage: `url(${process.env.PUBLIC_URL + '/image.png'})` 
+```
+<div style={{
+  backgroundImage: `url(${process.env.PUBLIC_URL + '/image.png'})`
 }}>
   Hello World
 </div>
+```
+
 Setting background image with absolute URL
+
+あなたが、ローカル環境上で上記のコードを動かすとき、React スクリプトは、PUBLIC_URL の値をコントロールします。
+ローカル環境で動かすとき、絶対パスの URL の代わりに、相対パス URL のように見えます。
+
 When you run this on your local computer, React scripts will handle the value of the PUBLIC_URL value. When you run it locally, it will look like a relative URL instead of absolute URL:
 
 absolute-url-background-image-1
+
+画像の絶対パス URL は、ローカルコンピュータで表示されません。
 Absolute URL of the image is not shown in local computer
+
+あなたが、React を本番アプリケーションにデプロイしたとき、絶対パス URL は、表示されます。
+
 The absolute URL will only be seen when you deploy React into production application later.
 
 How to Set a Background Image with Additional Properties
 If you want to customize the background image further, you can do so by adding additional properties after the backgroundImage. Here's an example:
 
-<div style={{ 
+```
+<div style={{
   backgroundImage: `url(${process.env.PUBLIC_URL + '/image.png'})`,
   backgroundRepeat: 'no-repeat',
-  width:'250px' 
+  width:'250px'
 }}>
   Hello World
 </div>
+```
+
 Setting background-image with additional properties
 The properties set above will add background-repeat: no-repeat and width: 250px together with the background-image style to the <div> element.
 
