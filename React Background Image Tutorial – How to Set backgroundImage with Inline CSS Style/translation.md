@@ -121,8 +121,14 @@ Absolute URL of the image is not shown in local computer
 
 The absolute URL will only be seen when you deploy React into production application later.
 
-How to Set a Background Image with Additional Properties
+
+
+### How to Set a Background Image with Additional Properties
+追加のプロパティと一緒に背景画像を設定する方法
+
 If you want to customize the background image further, you can do so by adding additional properties after the backgroundImage. Here's an example:
+
+もし、あなたが、さらに背景画像をカスタマイズしたいならば、the backgroundImageの後に、追加のプロパティを追加することで、カスタマイズできます。以下のコードは、サンプルです。
 
 ```
 <div style={{
@@ -135,6 +141,7 @@ If you want to customize the background image further, you can do so by adding a
 ```
 
 Setting background-image with additional properties
+<<<<<<< HEAD
 
 追加のプロパティと一緒に、背景画像を設定する
 
@@ -147,3 +154,17 @@ element.
 Thank you for reading, and I hope you found this article useful. If you have any questions, you can find me on Twitter. I will share some short developer tips from time to time as well. 🙂
 
 ここまでお読みいただき、ありがとうございます。そして、この記事が読者の皆様にとって、役に立っていることを願っています。 もし質問があるならば、Twitter 上で、私を見つけることができます。 今後も、短い開発者向けに役立つ情報も随時紹介していく予定です。
+=======
+
+追加のプロパティと一緒に、背景画像を設定する
+
+The properties set above will add background-repeat: no-repeat and width: 250px together with the background-image style to the <div> element.
+
+上記のコードのプロパティは、<div>要素に、background-repeat: no-repeat and width: 250pxのCSSを追加しています。
+
+Thank you for reading, and I hope you found this article useful. If you have any questions, you can find me on Twitter. I will share some short developer tips from time to time as well. 🙂
+
+ここまでお読みいただき、ありがとうございます。そして、この記事が読者の皆様にとって、役に立っていることを願っています。
+もし質問があるならば、Twitter上で、私を見つけることができます。
+今後も、短い開発者向けに役立つ情報も随時紹介していく予定です。
+>>>>>>> a16b726e5fbbb6175fdb06199e611ccbc6173e6f
