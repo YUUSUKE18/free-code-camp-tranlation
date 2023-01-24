@@ -38,3 +38,47 @@ Int型や数字は、数字全体です。
 整数は、シングル、あるいはダブルクオテーションで囲われません。
 
 
+## Data type conversion
+Sometimes when you're storing data, or when you receive input from a user in one type, you'll need to manipulate and perform different kinds of operations on that data.
+Since each data type can be manipulated in different ways, this often means that you'll need to convert it.
+Converting one data type to another is also called type casting or type conversion. Many languages offer built-in cast operators to do just that – to explicitly convert one type to another.
+
+データを保存するとき、あるいは、ユーザーから入力された型データを受け取るとき、そのデータにさまざまな操作を行うこともあるでしょう。
+それぞれの型データは、異なる方法で、操作され、このことは、データの型を変更する必要があるということを意味しています。
+あるデータの型を他のデータの型へ変換することを型変換あるいはキャストとも言われています。たくさんのプログラミング言語では、ある型から他の型への変換を組み込みの型変換機能として、提供しています。
+
+
+## How to convert a string to an integer in Python
+To convert, or cast, a string to an integer in Python, you use the int() built-in function.
+The function takes in as a parameter the initial string you want to convert, and returns the integer equivalent of the value you passed.
+The general syntax looks something like this: int("str").
+Let's take the following example, where there is the string version of a number:
+
+
+
+```
+#string version of the number 7
+print("7")
+
+#check the data type with type() method
+print(type("7"))
+
+#output
+
+#7
+#<class 'str'>
+```
+To convert the string version of the number to the integer equivalent, you use the int() function, like so:
+
+```
+#convert string to int data type
+print(int("7"))
+
+#check the data type with type() method
+print(type(int("7")))
+
+#output
+
+#7
+#<class 'int'>
+```
