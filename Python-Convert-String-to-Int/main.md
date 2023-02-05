@@ -76,3 +76,39 @@ print(type(int("7")))
 #7
 #<class 'int'>
 
+# A practical example of converting a string to an int
+
+Say you want to calculate the age of a user. You do this by receiving input from them. That input will always be in string format.
+
+So, even if they type in a number, that number will be of <class 'str'>.
+
+If you want to then perform mathematical operations on that input, such as subtracting that input from another number, you will get an error because you can't carry out mathematical operations on strings.
+
+Check out the example below to see this in action:
+
+The error mentions that subtraction can't be performed between an int and a string.
+
+You can check the data type of the input by using the type() method:
+
+The way around this and to avoid errors is to convert the user input to an integer and store it inside a new variable:
+
+利用者の年齢を計算したいとしましょう。入力値を受け取った時に、実行できます。入力される型は、いつも文字列となるでしょう。
+数値で入力されたとしても、受け取る型は、<class 'str'>となります。
+他の入力値から引き算するなど、もし、入力時に計算処理を実行したいならば、文字型で、計算処理を実行できないので、エラーとなります。
+以下のサンプルコードをご覧ください。
+
+数字型と文字型で引き算は、実行できないエラーとなります。
+
+type()を使うことで、入力されたデータ型を確認できます。
+
+エラーを避けるためには、利用者の入力を数字型に変換し、新しい変数内に変換したデータを保存します。
+
+# Conclusion
+
+And there you have it - you now know how to convert strings to integers in Python!
+
+If you want to learn more about the Python programming language, freeCodeCamp has a Python Certification to get you started.
+
+You'll start with the fundamentals and progress to more advance topics like data structures and relational databases. In the end, you'll build five projects to practice what you learned.
+
+Thanks for reading and happy coding!
