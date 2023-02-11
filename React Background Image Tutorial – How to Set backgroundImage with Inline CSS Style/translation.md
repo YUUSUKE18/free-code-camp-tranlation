@@ -46,9 +46,9 @@ export default App;
 ```
 
 Setting background image using imported image
-取り込んだ画像を用いて、画像として設定する方法
+ファイルに取り込んだ画像を用いて、画像として設定する方法
 
-npm start コマンドにて、アプリケーションを起動するとき、React アプリケーションは、内部で画像が見つけられないとして、コンパイルに失敗したというエラーを表示し、ビルドを停止します。
+npm start コマンドにて、アプリケーションを起動するとき、React アプリケーションは、画像が見つからない場合、内部で画像が見つけられないとして、コンパイルに失敗したというエラーを表示し、ビルドを停止します。
 
 この方法だと、アプリケーション上で、いかなる画像リンクも表示されません。上のコードにおいて、<backgroundImage>の値は、開発者が JavaScript の表記にて埋め込めるテンプレート文字を使っています。
 
@@ -56,7 +56,7 @@ npm start コマンドにて、アプリケーションを起動するとき、R
 
 ### 相対 URL の方法で、React 内で背景画像を設定する方法
 
-Create React App コマンドで作成された React アプリケーションの public フォルダは、静的な画像などを追加するのに使われます。public フォルダ内に配置したどのようなファイルもオンラインで、アクセスできます。
+Create React App コマンドで作成された React アプリケーションの public フォルダは、静的な画像などを追加するために使われます。public フォルダ内に配置したどのようなファイルもオンラインで、アクセスできます。
 
 The public/ folder in Create React App can be used to add static assets into your React application. Any files you put inside the folder will be accessible online.
 
@@ -64,7 +64,7 @@ public フォルダ内部に、image.png ファイルを配置している場合
 
 If you put an image.png file inside the public/ folder, you can access it at <your host address>/image.png. When running React in your local computer, the image should be at http://localhost:3000/image.png.
 
-背景画像を設定するために、相対パス URL をホストアドレスに割り振ることもできます。
+背景画像を設定するために、相対パスURLをホストアドレスに割り振ることもできます。
 以下のコードは、一例です。
 
 You can then assign the URL relative to your host address to set the background image. Here's an example:
@@ -85,7 +85,7 @@ By setting the URL path to /image.png like the example above, the browser will l
 
 You can also create another folder inside public/ if you want to organize your images into folders. For example:
 
-フォルダを新しく作成するならば、url(/img/image.png)を背景画像の値として、調整するのを忘れないようにしましょう。
+もしフォルダを新しく作成するならば、url(/img/image.png)を背景画像の値として、調整するのを忘れないようにしましょう。
 
 Don't forget to adjust the backgroundImage value to url(/img/image.png) if you decide to create the folder.
 
@@ -93,7 +93,7 @@ Don't forget to adjust the backgroundImage value to url(/img/image.png) if you d
 
 ### How to Set a Background Image in React Using the Absolute URL Method
 
-あなたが、以下のコードのように React アプリの PUBLIC_URL の環境変数を使うことで、絶対パス URL を含めることができます。
+あなたが、以下のコードのように React アプリの PUBLIC_URL の環境変数を使うことで、絶対パスURLを含めることもできます。
 
 You can also include the absolute URL by using Create React App's PUBLIC_URL environment variable like this:
 
@@ -108,7 +108,7 @@ You can also include the absolute URL by using Create React App's PUBLIC_URL env
 Setting background image with absolute URL
 
 あなたが、ローカル環境上で上記のコードを動かすとき、React スクリプトは、PUBLIC_URL の値をコントロールします。
-ローカル環境で動かすとき、絶対パスの URL の代わりに、相対パス URL のように見えます。
+ローカル環境で動かすとき、絶対パスのURLの代わりに、相対パス URLのように見えます。
 
 When you run this on your local computer, React scripts will handle the value of the PUBLIC_URL value. When you run it locally, it will look like a relative URL instead of absolute URL:
 
@@ -128,7 +128,7 @@ The absolute URL will only be seen when you deploy React into production applica
 
 If you want to customize the background image further, you can do so by adding additional properties after the backgroundImage. Here's an example:
 
-もし、あなたが、さらに背景画像をカスタマイズしたいならば、the backgroundImageの後に、追加のプロパティを追加することで、カスタマイズできます。以下のコードは、サンプルです。
+もし、あなたが、さらに背景画像をカスタマイズしたいならば、the backgroundImageの後に、追加のプロパティを追加することで、カスタマイズできます。以下のコードは、そのサンプルです。
 
 ```
 <div style={{
