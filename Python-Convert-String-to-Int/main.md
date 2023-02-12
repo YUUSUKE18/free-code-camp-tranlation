@@ -7,8 +7,8 @@ In this article, you'll learn how to convert a string to an integer.
 Let's get started!
 
 プログラミングを行っている時、データの型の変換が必要となることがあるでしょう。
-あるデータの型を他のデータの型に変換する知識は、情報と機能するときに、プログラマーにとって、素晴らしい柔軟性をもたらします。
-Python というプログラミング言語において、型を変換、もしくは、キャストする方法が異なります。
+あるデータ型を他のデータ型に変換する知識・経験は、情報を扱うときに、プログラマーにとって、データに対して、柔軟に対応できるようになります。
+Python というプログラミング言語において、型を変換、そして、キャストするといった多様な方法が組み込まれています。
 この記事では、String 型を Int 型に変換する方法について、学べます。
 それでは、詳しく見てきましょう。
 
@@ -23,32 +23,32 @@ Strings are sequences of characters that are used for conveying textual informat
 They are enclosed in single or double quotation marks, like so:
 
 Python は、様々なデータの型をサポートしています。
-データの型は、コンピュータのプログラムで使われている、そして、存在している異なるタイプのデータの型を特定、再表示、区別するのに使われています。
-また、違う実行システムは、異なるデータの型を利用できます。つまり、あるデータの型で実行できることは、他ではよく利用できません。
+データの型は、コンピュータプログラムで使われている、そして、存在している異なるタイプのデータの型を特定、再表示、区別するのに使われています。
+また、あるデータ型で利用できる処理が、別のデータ型では利用できないといったデータ型によって利用できる処理が異なります。
 
 データの型の一例として、String 型があります。
-文字は、テキストベースの情報を扱うのに使われている文字列となります。
-文字は、以下のコードのように、シングル、あるいは、ダブルクォテーションで囲われます。
+String 型は、テキストベースの情報を扱うのに使われている文字列となります。
+String 型は、以下のコードのように、シングル、あるいは、ダブルクォテーションで囲われます。
 
 Ints, or integers, are whole numbers.
 They are used to represent numerical data, and you can do any mathematical operation (such as addition, subtraction, multiplication, and division) when working with integers.
 Integers are not enclosed in single or double quotation marks.
 
-Int 型や数字は、数字全体です。
-それらは、数値データを表すのに使われます。そして、数字を用いるとき、＋、ー、✖︎、÷ といった四則演算で使うことができます。
+Int 型や integers は、整数となります。
+整数は、数値データを表すのに使われます。そして、数字を取り扱うときに、＋、ー、✖︎、÷ といった四則演算で使うことができます。
 整数は、シングル、あるいはダブルクオテーションで囲われません。
 
 ## Data type conversion
 
 Sometimes when you're storing data, or when you receive input from a user in one type, you'll need to manipulate and perform different kinds of operations on that data. Since each data type can be manipulated in different ways, this often means that you'll need to convert it. Converting one data type to another is also called type casting or type conversion. Many languages offer built-in cast operators to do just that – to explicitly convert one type to another.
 
-データを保存するとき、あるいは、ユーザーから入力された型データを受け取るとき、そのデータにさまざまな操作を行うこともあるでしょう。 それぞれの型データは、異なる方法で、操作され、このことは、データの型を変更する必要があるということを意味しています。 あるデータの型を他のデータの型へ変換することを型変換あるいはキャストとも言われています。たくさんのプログラミング言語では、ある型から他の型への変換を組み込みの型変換機能として、提供しています。
+データを保存するとき、あるいは、入力された型データを受け取るとき、そのデータにさまざまな操作を行う必要もあるでしょう。型データによって、対応できる処理とできない処理がある、データ型を変更する必要があります。あるデータ型から他のデータ型への変換は、型のコンバージョンあるいはキャストとも言われています。多くのプログラミング言語では、ある型から他の型への変換を組み込みの機能として、提供しています。
 
 ## How to convert a string to an integer in Python
 
 To convert, or cast, a string to an integer in Python, you use the int() built-in function. The function takes in as a parameter the initial string you want to convert, and returns the integer equivalent of the value you passed. The general syntax looks something like this: int("str"). Let's take the following example, where there is the string version of a number:
 
-Python で文字列を数値へ型変換するためには、組み込み関数である int()を使います。この組み込み関数は、型変換したい文字列を引数として、数値としての値を戻します。一般的な文法は、int("str")となります。それでは、数値が文字列となっている次の例を参考に見ていきましょう。
+Python で文字型を数値型へ変換するためには、組み込み関数である int()を使います。この組み込み関数は、型変換したい文字列を引数として、数値としての値を戻します。一般的な文法は、int("str")となります。それでは、数値が文字列となっている次の例を参考に見ていきましょう。
 
 #string version of the number 7
 print("7")
@@ -92,16 +92,16 @@ You can check the data type of the input by using the type() method:
 
 The way around this and to avoid errors is to convert the user input to an integer and store it inside a new variable:
 
-利用者の年齢を計算したいとしましょう。入力値を受け取った時に、実行できます。入力される型は、いつも文字列となるでしょう。
-数値で入力されたとしても、受け取る型は、<class 'str'>となります。
-他の入力値から引き算するなど、もし、入力時に計算処理を実行したいならば、文字型で、計算処理を実行できないので、エラーとなります。
+例えば、利用者の年齢を計算したいとしましょう。入力された値を受け取った時に、計算を実行できます。入力される型は、いつも文字型となります。
+数字で入力されたとしても、受け取る型は、<class 'str'>となります。
+他の入力された数字から引き算するなど、もし、入力時に計算処理を実行したいならば、文字型では、計算処理を行えないので、エラーとなります。
 以下のサンプルコードをご覧ください。
 
-数字型と文字型で引き算は、実行できないエラーとなります。
+Int 型と String 型の引き算は、実行できないエラーとなります。
 
 type()を使うことで、入力されたデータ型を確認できます。
 
-エラーを避けるためには、利用者の入力を数字型に変換し、新しい変数内に変換したデータを保存します。
+このエラーを避けるためには、利用者の入力を Int 型に変換し、新しい変数内に変換したデータを保存します。
 
 # Conclusion
 
@@ -112,3 +112,10 @@ If you want to learn more about the Python programming language, freeCodeCamp ha
 You'll start with the fundamentals and progress to more advance topics like data structures and relational databases. In the end, you'll build five projects to practice what you learned.
 
 Thanks for reading and happy coding!
+
+Python で文字型から数字型へ変換する方法が分かりましたね。
+もし、Python をもっと学びたいならば、freeCodeCamp では、Python の認定コースがあります。
+Python の基礎から始めて、リレーショナルデータベースやデータ構造といった高度なトピックへと進んでいきます。
+最後には、実践へとつなげるために、5 つのプロジェクトを作成します。
+
+ここまで読んでくださってありがとうございます、そして、コーディングを楽しみましょうね！
