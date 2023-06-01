@@ -20,3 +20,28 @@ then I would suggest watching this beginner freeCodeCamp Python tutorial.
 この記事の各項目へ飛ぶ以下のリストされたいずれかのプロジェクトを押してみてください。
 もしも、Python の基礎をしっかり固めたいならば、
 freeCodeCamp の初心者向けの Python チュートリアルを視聴することを提案します。
+
+### Mad libs Python Project
+
+In this Kylie Ying tutorial,
+you will learn how to get input from the user,
+work with f-strings,
+and see your results printed to the console.
+
+This is a great starter project to get comfortable doing string concatenation in Python.
+
+###
+
+Kylie Ying が作ったチュートリアルでは、利用者が入力情報を取得する方法を学び、
+f 文字列と共に動き、そして、コンソールに出力された結果を確認できます。
+これは、Python で文字列の連結に慣れるのに、良い初めのプロジェクトとなります。
+
+### Guess the Number Game Python Project (computer)
+
+In this Kylie Ying tutorial,
+you will learn how to work with Python's random module,
+build functions, work with while loops and conditionals,
+and get user input.
+
+Kylie Ying が作ったチュートリアルでは、Python のランダムモジュールの動かし方を学びます。
+関数を作り、ループ処理と条件分岐を用いて、利用者が入力した情報を取得します。
