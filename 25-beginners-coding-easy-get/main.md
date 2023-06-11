@@ -62,8 +62,13 @@ In this Kylie Ying tutorial, you will learn how to work with dictionaries, lists
 
 In this Code With Tomi tutorial, you will learn how to build a countdown timer using the time Python module. This is a great beginner project to get you used to working with while loops in Python.
 
+Tomi のチュートリアルでは、Python の時間モジュールを利用して、カウントダウンタイマーを作ります。このチュートリアルを通じて、Python での while ループの使い方を学べることができるので、初心者には、Pythob の初心者に良いプロジェクトの一つとなります。
+
 ## Password Generator Python Project
 
 In this Code With Tomi tutorial, you will learn how to build a random password generator. You will collect data from the user on the number of passwords and their lengths and output a collection of passwords with random characters.
 
 This project will give you more practice working with for loops and the random Python module.
+
+Tomi のチュートリアルで、ランダムなパスワードを生成するシステムについて、学べます。ユーザーが入力したパスワードの数字と入力された長さからランダムな特徴を持っているパスワードを生成します。
+このプロジェクトは、Python での loop 関数と random 関数の使い方を学べるでしょう。
