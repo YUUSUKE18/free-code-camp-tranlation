@@ -45,3 +45,25 @@ and get user input.
 
 Kylie Ying が作ったチュートリアルでは、Python のランダムモジュールの動かし方を学びます。
 関数を作り、ループ処理と条件分岐を用いて、利用者が入力した情報を取得します。
+
+## Rock, paper, scissors Python Project
+
+In this Kylie Ying tutorial, you will work with random.choice(), if statements, and getting user input. This is a great project to help you build on the fundamentals like conditionals and functions.
+
+Kylie Ying のチュートリアルでは、条件分岐、そして、ユーザーが入力した情報を元に、random.choice()関数を使うことができます。これは、Python での条件分岐と関数といった基礎的な部分を理解するのに役立つプロジェクトなのです。
+
+## Hangman Python Project
+
+In this Kylie Ying tutorial, you will learn how to work with dictionaries, lists, and nested if statements. You will also learn how to work with the string and random Python modules.
+
+この Kylie Ying のチュートリアルでは、辞書型、リスト型、そして、条件がネストされている中でどのように動くのかを学ぶことができます。これらに加えて、文字型と random 関数のモジュールについても理解できるでしょう。
+
+## Countdown Timer Python Project
+
+In this Code With Tomi tutorial, you will learn how to build a countdown timer using the time Python module. This is a great beginner project to get you used to working with while loops in Python.
+
+## Password Generator Python Project
+
+In this Code With Tomi tutorial, you will learn how to build a random password generator. You will collect data from the user on the number of passwords and their lengths and output a collection of passwords with random characters.
+
+This project will give you more practice working with for loops and the random Python module.
