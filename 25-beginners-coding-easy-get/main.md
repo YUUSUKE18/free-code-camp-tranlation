@@ -70,5 +70,21 @@ In this Code With Tomi tutorial, you will learn how to build a random password g
 
 This project will give you more practice working with for loops and the random Python module.
 
-Tomi のチュートリアルで、ランダムなパスワードを生成するシステムについて、学べます。ユーザーが入力したパスワードの数字と入力された長さからランダムな特徴を持っているパスワードを生成します。
+「Code With Tomi」のチュートリアルで、ランダムなパスワードを生成するシステムについて、学べます。ユーザーが入力したパスワードの数字と入力された長さからランダムな特徴を持っているパスワードを生成します。
 このプロジェクトは、Python での loop 関数と random 関数の使い方を学べるでしょう。
+
+## QR code encoder / decoder Python Project
+
+In this Code With Tomi tutorial, you will learn how to create your own QR codes and encode/decode information from them. This project uses the qrcode library.
+
+This is a great project for beginners to get comfortable working with and installing different Python modules.
+
+「Code With Tomi」のチュートリアルで、QR コードの作り方、そして、これらの QR コードからエンコード/デコードの処理について、学べます。このプロジェクトは、QR コードライブラリを利用します。
+
+Python の異なるモジュールを扱いつつ、インストールすることに慣れるために、初心者にとって、とても素晴らしいプロジェクトの一つになります。
+
+## Tic-Tac-Toe Python Project
+
+In this Kylie Ying tutorial, you will learn how to build a tic-tac-toe game with various players in the command line. You will learn how to work with Python's time and math modules as well as get continual practice with nested if statements.
+
+「Kylie Ying のチュートリアル」で、コマンドラインで、さまざまなプレイヤーとプレイできる〇 × ゲームを作る方法を学べます。ネストされた if 文の書き方と共に、Python の time と math モジュールの使い方を学べます。
