@@ -88,3 +88,58 @@ Python の異なるモジュールを扱いつつ、インストールするこ�
 In this Kylie Ying tutorial, you will learn how to build a tic-tac-toe game with various players in the command line. You will learn how to work with Python's time and math modules as well as get continual practice with nested if statements.
 
 「Kylie Ying のチュートリアル」で、コマンドラインで、さまざまなプレイヤーとプレイできる〇 × ゲームを作る方法を学べます。ネストされた if 文の書き方と共に、Python の time と math モジュールの使い方を学べます。
+
+## Tic-Tac-Toe AI Python Project
+
+In this Kylie Ying tutorial, you will learn how to build a tic-tac-toe game where the computer never loses. This project utilizes the minimax algorithm which is a recursive algorithm used for decision making.
+
+「Kylie Ying のチュートリアル」で、コンピュータが負けないような〇 × ゲームを作り方を学べます。このプロジェクトは、想定される最大の損害が最小になるように決断を行うために使われる再帰アルゴリズムであるミニマックスアルゴリズムを利用します。
+
+Binary Search Python Project
+In this Kylie Ying tutorial, you will learn how to implement the divide and conquer algorithm called binary search. This is a common searching algorithm which comes up in job interviews, which is why it is important to know how to implement it in code.
+
+Minesweeper Python Project
+In this Kylie Ying tutorial, you will build the classic minesweeper game in the command line. This project focuses on recursion and classes.
+
+Sudoku Solver Python Project
+In this Kylie Ying tutorial, you will learn how to build a sudoku solver which utilizes the backtracking technique. Backtracking is a recursive technique that searches for every possible combination to help solve the problem.
+
+Photo Manipulation in Python Project
+In this Kylie Ying tutorial, you will learn how to create an image filter and change the contrast, brightness, and blur of images. Before starting the project, you will need to download the starter files.
+
+Markov Chain Text Composer Python Project
+In this Kylie Ying tutorial, you will learn about the Markov chain graph model and how it can be applied the relationship of song lyrics. This project is a great introduction into artificial intelligence in Python.
+
+Pong Python Project
+In this Christian Thompson tutorial, you will learn how to recreate the classic pong game in Python. You will be working with the os and turtle Python modules which are great for creating graphics for games.
+
+Snake Python Project
+In this Tech with Tim tutorial, you will learn how to recreate the classic snake game in Python. This project uses Object-oriented programming and Pygame which is a popular Python module for creating games.
+
+Connect Four Python Project
+In this Keith Galli tutorial, you will learn how to build the classic connect four game. This project utilizes the numpy, math, pygame and sys Python modules.
+
+This project is great if you have already built some smaller beginner Python projects. But if you haven't built any Python projects, then I would highly suggest starting with one of the earlier projects on the list and working your way up to this one.
+
+Tetris Python Project
+In this Tech with Tim tutorial, you will learn how to recreate the classic Tetris game. This project utilizes Pygame and is great for beginner developers to take their skills to the next level.
+
+Online Multiplayer Game Python Project
+In this Tech with Tim tutorial, you will learn how to build an online multiplayer game where you can play with anyone around the world. This project is a great introduction to working with sockets, networking, and Pygame.
+
+Web Scraping Program Python Project
+In this Code With Tomi tutorial, you will learn how to ask for user input for a GitHub user link and output the profile image link through web scraping. Web scraping is a technique that collects data from a web page.
+
+Bulk File Re-namer Python Project
+In this Code With Tomi tutorial, you will learn how to build a program that can go into any folder on your computer and rename all of the files based on the conditions set in your Python code.
+
+Weather Program Python Project
+In this Code With Tomi tutorial, you will learn how to build a program that collects user data on a specific location and outputs the weather details of that provided location. This is a great project to start learning how to get data from API's.
+
+Code a Discord Bot with Python - Host for Free in the Cloud
+In this Beau Carnes tutorial, you will learn how to build your own bot that works in Discord which is a platform where people can come together and chat online. This project will teach you how to work with the Discord API and Replit IDE.
+
+After this video was released, Replit changed how you can store your environments variables in your program. Please read through this tutorial on how to properly store environment variables in Replit.
+
+Space Invaders Game Python Project
+In this buildwithpython tutorial, you will learn how to build a space invaders game using Pygame. You will learn a lot of basics in game development like game loops, collision detection, key press events, and more.
