@@ -98,17 +98,25 @@ In this Kylie Ying tutorial, you will learn how to build a tic-tac-toe game wher
 Binary Search Python Project
 In this Kylie Ying tutorial, you will learn how to implement the divide and conquer algorithm called binary search. This is a common searching algorithm which comes up in job interviews, which is why it is important to know how to implement it in code.
 
+「Kylie Ying のチュートリアル」で、バイナリサーチと呼ばれる二分探索アルゴリズムの実装方法を学べます。これは、採用面接で出題されることもある検索アルゴリズムで、コードでの実装方法を知っておくことが、重要です。
+
 Minesweeper Python Project
 In this Kylie Ying tutorial, you will build the classic minesweeper game in the command line. This project focuses on recursion and classes.
+「Kylie Ying のチュートリアル」で、コマンドラインでのマインスイーパーゲームを構築できます。このプロジェクトは、再帰とクラスを焦点を当てたプロジェクトです。
+
 
 Sudoku Solver Python Project
 In this Kylie Ying tutorial, you will learn how to build a sudoku solver which utilizes the backtracking technique. Backtracking is a recursive technique that searches for every possible combination to help solve the problem.
+「Kylie Ying のチュートリアル」で、バックトラックの技術を活用する数独解決を構築できます。バックトラックは、問題を解決するのに役立つあらゆる組み合わせの探索を行う再帰的な技法です。
+
 
 Photo Manipulation in Python Project
 In this Kylie Ying tutorial, you will learn how to create an image filter and change the contrast, brightness, and blur of images. Before starting the project, you will need to download the starter files.
+「Kylie Ying のチュートリアル」において、画像フィルターの作成と画像のコントラスト、明るさ、そして、ぼかしを変更する方法を学べます。このプロジェクトを始める前に、スターターファイルをダウンロードする必要があります。
 
 Markov Chain Text Composer Python Project
 In this Kylie Ying tutorial, you will learn about the Markov chain graph model and how it can be applied the relationship of song lyrics. This project is a great introduction into artificial intelligence in Python.
+í
 
 Pong Python Project
 In this Christian Thompson tutorial, you will learn how to recreate the classic pong game in Python. You will be working with the os and turtle Python modules which are great for creating graphics for games.
