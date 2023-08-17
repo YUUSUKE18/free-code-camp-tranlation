@@ -122,11 +122,17 @@ In this Christian Thompson tutorial, you will learn how to recreate the classic 
 
 Snake Python Project
 In this Tech with Tim tutorial, you will learn how to recreate the classic snake game in Python. This project uses Object-oriented programming and Pygame which is a popular Python module for creating games.
+「Tech with Tim」のチュートリアルでは、Python でなつかしの Snake ゲームを再構築する方法を学べます。このプロジェクトは、オブジェクト指向のプログラミングと Python でゲームを作るための人気モジュールである Pygame を使います。
 
 Connect Four Python Project
 In this Keith Galli tutorial, you will learn how to build the classic connect four game. This project utilizes the numpy, math, pygame and sys Python modules.
+「Keith Galli」のチュートリアルで、昔からある四目並べのコネクトフォーの作り方を学べます。このプロジェクトは、numpy,math,pygame、そして、sys という Python モジュールを活用します。
 
 This project is great if you have already built some smaller beginner Python projects. But if you haven't built any Python projects, then I would highly suggest starting with one of the earlier projects on the list and working your way up to this one.
+
+もし、既に初心者向けの小規模の Python プロジェクトに取り組んでいるならば、このプロジェクトは、とても素晴らしい効果があります。しかし、まだどの Python プロジェクトを開発したことがないのであれば、ここまで紹介したリストの一つを取り組むこと、そして、そのプロジェクトを開発し遂げることを強くおすすめします。
+
+
 
 Tetris Python Project
 In this Tech with Tim tutorial, you will learn how to recreate the classic Tetris game. This project utilizes Pygame and is great for beginner developers to take their skills to the next level.
