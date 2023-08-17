@@ -104,11 +104,9 @@ Minesweeper Python Project
 In this Kylie Ying tutorial, you will build the classic minesweeper game in the command line. This project focuses on recursion and classes.
 「Kylie Ying のチュートリアル」で、コマンドラインでのマインスイーパーゲームを構築できます。このプロジェクトは、再帰とクラスを焦点を当てたプロジェクトです。
 
-
 Sudoku Solver Python Project
 In this Kylie Ying tutorial, you will learn how to build a sudoku solver which utilizes the backtracking technique. Backtracking is a recursive technique that searches for every possible combination to help solve the problem.
 「Kylie Ying のチュートリアル」で、バックトラックの技術を活用する数独解決を構築できます。バックトラックは、問題を解決するのに役立つあらゆる組み合わせの探索を行う再帰的な技法です。
-
 
 Photo Manipulation in Python Project
 In this Kylie Ying tutorial, you will learn how to create an image filter and change the contrast, brightness, and blur of images. Before starting the project, you will need to download the starter files.
@@ -116,10 +114,11 @@ In this Kylie Ying tutorial, you will learn how to create an image filter and ch
 
 Markov Chain Text Composer Python Project
 In this Kylie Ying tutorial, you will learn about the Markov chain graph model and how it can be applied the relationship of song lyrics. This project is a great introduction into artificial intelligence in Python.
-í
+「Kylie Ying のチュートリアル」において、状態が確率によって変化するマルコフ連鎖モデルについて、そして、歌詞との関連性に適用できるかを学べます。このプロジェクトは、Python での人工知能の素晴らしい導入モデルとなります。
 
 Pong Python Project
 In this Christian Thompson tutorial, you will learn how to recreate the classic pong game in Python. You will be working with the os and turtle Python modules which are great for creating graphics for games.
+この「Christian Thompson のチュートリアル」では、Python での古典的なピンポンゲームの再構築の仕方を学べます。OS の動かし方、そして、タートルの Python モジュールを利用して、ゲームのグラフィックスを作成する方法を学びます。
 
 Snake Python Project
 In this Tech with Tim tutorial, you will learn how to recreate the classic snake game in Python. This project uses Object-oriented programming and Pygame which is a popular Python module for creating games.
