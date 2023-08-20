@@ -132,27 +132,33 @@ This project is great if you have already built some smaller beginner Python pro
 
 もし、既に初心者向けの小規模の Python プロジェクトに取り組んでいるならば、このプロジェクトは、とても素晴らしい効果があります。しかし、まだどの Python プロジェクトを開発したことがないのであれば、ここまで紹介したリストの一つを取り組むこと、そして、そのプロジェクトを開発し遂げることを強くおすすめします。
 
-
-
 Tetris Python Project
 In this Tech with Tim tutorial, you will learn how to recreate the classic Tetris game. This project utilizes Pygame and is great for beginner developers to take their skills to the next level.
+「Tech with Tim」のチュートリアルでは、昔からあるテトリスゲームを再開発する方法を学べます。このプロジェクトは、Pygame を活用し、開発者初心者が次のレベルのスキルを取得するのに良い機会です。
 
 Online Multiplayer Game Python Project
 In this Tech with Tim tutorial, you will learn how to build an online multiplayer game where you can play with anyone around the world. This project is a great introduction to working with sockets, networking, and Pygame.
+「Tech with Tim」のチュートリアルでは、世界中の人たちと遊べるオンラインの多人数で楽しめるゲームを開発の仕方を学べます。このプロジェクトは、Sockets と networking、そして、Pygame の仕組みを学ぶ素晴らしい第一歩となります。
 
 Web Scraping Program Python Project
 In this Code With Tomi tutorial, you will learn how to ask for user input for a GitHub user link and output the profile image link through web scraping. Web scraping is a technique that collects data from a web page.
+「Code With Tomi」チュートリアルで、利用者が入力する Github の利用者リンクに対して、Web スクレイピングを通して、プロフィール画像リンクを出力する方法を学べます。Web スクレイピングは、Web ページからデータを集める手法の一つです。
 
 Bulk File Re-namer Python Project
 In this Code With Tomi tutorial, you will learn how to build a program that can go into any folder on your computer and rename all of the files based on the conditions set in your Python code.
+この「Code With Tomi」チュートリアルで、コンピュータ上のフォルダを送り、Python コードで全てのファイルを条件に基づき、名前の変更を行う仕組みの開発を学べます。
 
 Weather Program Python Project
 In this Code With Tomi tutorial, you will learn how to build a program that collects user data on a specific location and outputs the weather details of that provided location. This is a great project to start learning how to get data from API's.
+「Code With Tomi」チュートリアルで、特定の地域の利用者データを集めて、集められた地域の詳細の気象情報を出力する仕組みを開発します。これは、API からデータを取得する方法を学び始めるのに素晴らしいプロジェクトとなります。
 
 Code a Discord Bot with Python - Host for Free in the Cloud
 In this Beau Carnes tutorial, you will learn how to build your own bot that works in Discord which is a platform where people can come together and chat online. This project will teach you how to work with the Discord API and Replit IDE.
+「Beau Carnes」チュートリアルで、利用者が訪れて、オンラインチャットを楽しめるプラットフォームである Discord で機能する bot を開発する方法を学べます。このプロジェクトは、Discord API の仕組み、そして、Replit IDE について、教えてくれます。
 
 After this video was released, Replit changed how you can store your environments variables in your program. Please read through this tutorial on how to properly store environment variables in Replit.
+このビデオが公開された後、Replit は、ご自身の環境変数をプログラムに記録できるように変更しました。Replit の環境変数の記録方法は、このチュートリアルから確認してください。
 
 Space Invaders Game Python Project
 In this buildwithpython tutorial, you will learn how to build a space invaders game using Pygame. You will learn a lot of basics in game development like game loops, collision detection, key press events, and more.
+「buildwithpython」チュートリアルでは、Pygame を用いたスペースインベーダーゲームの開発方法を学べます。ゲーム上でのループ処理、衝突検出、キープレスイベントなどゲーム開発におけるたくさんの基礎を学べます。
